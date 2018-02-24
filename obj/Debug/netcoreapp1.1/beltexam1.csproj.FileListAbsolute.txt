@@ -1,0 +1,8 @@
+C:\Users\may12\Desktop\DojoAssignments\C#\Net\beltexam1\bin\Debug\netcoreapp1.1\beltexam1.deps.json
+C:\Users\may12\Desktop\DojoAssignments\C#\Net\beltexam1\bin\Debug\netcoreapp1.1\beltexam1.runtimeconfig.json
+C:\Users\may12\Desktop\DojoAssignments\C#\Net\beltexam1\bin\Debug\netcoreapp1.1\beltexam1.runtimeconfig.dev.json
+C:\Users\may12\Desktop\DojoAssignments\C#\Net\beltexam1\bin\Debug\netcoreapp1.1\beltexam1.dll
+C:\Users\may12\Desktop\DojoAssignments\C#\Net\beltexam1\bin\Debug\netcoreapp1.1\beltexam1.pdb
+C:\Users\may12\Desktop\DojoAssignments\C#\Net\beltexam1\obj\Debug\netcoreapp1.1\beltexam1.AssemblyInfo.cs
+C:\Users\may12\Desktop\DojoAssignments\C#\Net\beltexam1\obj\Debug\netcoreapp1.1\beltexam1.dll
+C:\Users\may12\Desktop\DojoAssignments\C#\Net\beltexam1\obj\Debug\netcoreapp1.1\beltexam1.pdb

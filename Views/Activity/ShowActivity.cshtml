@@ -1,0 +1,23 @@
+<a href="/Dashboard">Home</a>
+<a href="/logout">Log Out</a>
+
+<div class="jumbotron">
+    <h1>Dojo Activity Center</h1>
+
+    <h2>Activity: @ViewBag.ShowOne.ActivityName</h2>
+    <hr>
+    
+    <h3>Event Coordinator: @ViewBag.UserInfo.FirstName</h3>
+    <hr>
+    
+    <h4>Description: @ViewBag.ShowOne.Description</h4>
+    <hr>
+
+    <h4>Participants:</h4>
+    @{
+        foreach(var participants in @ViewBag.ShowOne.JoinActivities){
+            <p>@participants.User.FirstName</p>
+        }
+    }
+    
+</div>

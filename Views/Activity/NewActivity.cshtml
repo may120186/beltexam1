@@ -1,0 +1,37 @@
+<a href="/logout">Log Out</a>
+<a href="/Dashboard">Home</a>
+
+<div class="jumbotron">
+    <h1>Create An Activity!</h1>
+    @model beltexam1.Models.AddActivity
+    <form asp-action="AddActivity" method="POST">
+        <label asp-for="ActivityName"></label>
+        <input asp-for="ActivityName" class="form-control">
+        <span asp-validation-for="ActivityName" class="text-danger"></span><br>
+
+        <label asp-for="Time"></label>
+        <input type="time" asp-for="Time" class="form-control" pattern="[0-9]{2}:[0-9]{2}">
+        <span asp-validation-for="Time" class="text-danger"></span><br>
+
+        <label asp-for="DateOfActivity"></label>
+        <input type="date" asp-for="DateOfActivity" class="form-control">
+        <span asp-validation-for="DateOfActivity" class="text-danger"></span><br>
+
+        <label asp-for="Duration"></label>
+        <input type="text" asp-for="Duration" class="form-control">
+        <select name="DropDown">
+            <option value="Hours">Hours</option>
+            <option value="Minutes">Minutes</option>
+            <option value="Days">Days</option>
+        </select>
+        <span asp-validation-for="Duration" class="text-danger"></span><br>
+
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span><br>
+
+        <input type="submit" value="Create Activity" class="btn btn success">
+
+    </form>
+
+</div>
